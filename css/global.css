@@ -1,0 +1,119 @@
+/* CSS Global TP1*/
+/*Remise a 0 supplementaire*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*
+    Sections du haut
+*/
+body{
+    background-color: white;
+    font-size: 14px;
+}
+section{
+    width: 960px;
+}
+.centre{
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 20px;
+    height: 75vh;
+}
+header{
+    height: 75px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+footer{
+    width: 100vw;
+    background-color: black;
+    color: white;
+    height: 25vh;
+}
+div{
+    margin-top: 40px;
+}
+/*
+        Section du bas
+*/
+#recherche{
+    margin-top: 20px;
+    border: 1px solid rgba(80, 82, 84, 0.5);
+}
+h6{
+    margin: 4px 0;
+}
+#medias img{
+    margin-right: 10px;
+    margin-top: 15px;
+}
+#address h5{
+    margin-top: 10px;
+}
+#address #avis{
+    margin-top: 65px;
+}
+#enbas{
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+nav{
+    width: 700px;
+    align-self: flex-end;
+    color: black;
+}
+/*
+        Image
+*/
+#figure{
+    margin-top: 30px;
+    width: 960px;
+}
+#image{
+    /*  Box Shaddow  */
+    -webkit-box-shadow: 15px 15px 10px 2px #949494;
+    box-shadow: 15px 15px 10px 2px #949494;
+}
+figcaption{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    position: relative;
+    top: -39px;
+    padding: 10px;
+}
+/*
+        Liste
+*/
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul li{
+    list-style-type: none;
+}
+
+/*
+        Interactions
+*/
+a{
+    text-decoration: none;
+    color: black;
+}
+a :hover{
+    text-decoration: underline;
+    color: black;
+}
+input{
+    border-style: none;
+}
+input, button{
+    background-color: black;
+    color: white;
+}
